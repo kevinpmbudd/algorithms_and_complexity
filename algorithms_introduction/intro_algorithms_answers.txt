@@ -1,0 +1,58 @@
+1. Eating a bowl of cereal
+
+Get bowl
+Get spoon
+Get box of cereal
+Get container of milk
+
+REPEAT
+  Pour cereal into bowl
+UNTIL cereal fills half the bowl
+
+REPEAT
+  Pour milk over cereal
+UNTIL milk floats all the cereal
+
+REPEAT
+  Eat cereal with spoon
+UNTIL cereal is gone
+
+REPEAT
+  Drink milk from bowl
+UNTIL milk is gone
+
+
+2. Picking out a movie on netflix
+
+Turn tv on
+
+WHILE tv input is not hdmi 2
+  press tv input button
+ENDWHILE
+
+Navigate browser to netflix
+
+REPEAT
+  scroll listings
+UNTIL a desired show is found
+
+Play the desired show
+Enjoy show
+
+
+3. Washing hands
+
+Pump soap into left hand
+Turn on water with right hand
+
+WHILE water is not warm
+  Turn sink handle towards warm
+  Test new temperature
+ENDWHILE
+
+Wet hands
+Scrub hands for 30 seconds
+Rinse bubbles off hands
+
+Turn water off
+Dry hands with a towel

@@ -1,0 +1,48 @@
+1. Given the alphabetically sorted collection in this checkpoint, how many
+   iterations would it take to find the value G using linear search?
+
+   7
+
+2. Given the alphabetically sorted collection in this checkpoint, how many
+   iterations would it take to find the value G using binary search?
+
+   3
+
+3. Calculate fib(10), fib(11), fib(12) by hand.
+
+|     n     |    fib(n-2)   |   fib(n-1)   |    fib(n)   |
+----------------------------------------------------------
+|     10    |      21       |      34      |      55      |
+|     11    |      34       |      55      |      89      |
+|     12    |      55       |      89      |      144     |
+
+
+Fibonacci Recursive
+
+1. Given an unsorted collection of a million items, which algorithm would you
+   choose between linear search and binary search? Would you use an iterative
+   or recursive solution? Explain your reasoning.
+
+   Because the collection is unsorted a Linear search. It would depend on the
+   complexity of the function but likely I would use an iterative solution
+   for performace reasons. Comparing Fibonacci_iterative vs. Fibonacci_recursive
+   showed that Recursive solutions can be very slow to perform. In the case
+   of the Fibonacci sequence, every value N that we are computing for has to
+   be resolved all the way down to 1 of 2 base cases, 0 or 1. This can mean
+   a very large number of recursive calls. In the case of fib(20), my benchmark
+   tests recorded about 21,890 recursive calls to obtain the solution. Whereas
+   with the Iterative solution the simple for loops only iterates about 19 times
+   to get its solution.
+
+2. Given a sorted collection of a million items, which algorithm would you
+   choose between linear search and binary search? Would you use an iterative
+   or recursive solution? Explain your reasoning.
+
+   Because the collection is sorted a Binary search. Each iteration of the Binary
+   search would cut the collection in half, after the first iteration, about
+   500,000 items would be able to be dismissed from the search. Whether to use
+   an Iterative or Recursive solution would depend on the complexity of the
+   function, I would again refer to the fib(20) results I referenced in the
+   previous question but my initial research is showing that an iteratively-
+   implemented solution will usually be faster than a recursively-implemented
+   solution. 

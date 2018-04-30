@@ -1,0 +1,49 @@
+1. Analogy for O(1) and O(2^n)
+
+  If I am playing music on my computer and I skip from one track to the next
+  as it appears to me the user it doesn't matter how long the track length
+  of the track being skipped is, if it is a one minute song or a 100 minute
+  song, the player just skips to the next track in the same amount of time.
+  That is O(1). In this scenario for O(2^n) it would be like if my computer
+  had to scan at very slow speed every moment of the song being skipped.
+
+2. Best case - Binary search
+
+  Best case is finding the item on the first iteration, in the case of Binary
+  search this would mean the item is the middle value in the collection.
+
+3. Worst case - Binary search
+
+  Picturing a binary tree worst case would be if you had keep dividing
+  the collection down to the deepest level of the tree. A 10 sized collection
+  would be split into 5 , 1 and 4 elements. Then the 5 into 2, 1 and 2 sized.
+  Then the 2 into 1 and 1, for a total of 3 iterations.
+
+4. Bounded case - Binary search
+
+  Bounded case would occur in the middle of the best case of 1 iteration and
+  the worst case of having to visit all the way to the leaves of the tree.
+
+5. Link to Graph
+   https://docs.google.com/spreadsheets/d/e/2PACX-1vT7VDW7HAoQn3s-kKTibx-Dy6Gsq0RW_fJLspv85PAiZJDpo5lBXGie4oU3Wvh13Yb5q-ZYDm7309oL/pubchart?oid=51116791&format=image
+
+6. Infinity
+
+7. Big O is Quadratic Time
+
+8. def worse_case_linear(n)
+     puts "#{n} iteration(s)"
+   end
+
+   1.upto(10) do |n|
+     worse_case_linear(n)
+   end
+
+   https://repl.it/repls/UnselfishUnfortunateInstruction
+
+9. link to chart of Big O(n)
+   https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3MqVZ6EEqkYoCszZLFr5ARpTMvEA4uaSPksKexzv4R3yL1OUclB_kXCbszRaJ_ceu_HPCZlJtsR_z/pubchart?oid=1745309204&format=interactive
+
+10. Big O of Binary search is O(log n) logarithmic time.
+11. Big Omega of Binary search is O(1) constant time.
+12. Big Theta of Binary search is O(log n) logarithmic time.

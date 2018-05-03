@@ -1,0 +1,29 @@
+1. O(1) Constant time
+  The method will always take the same amount of time to execute.
+
+2. O(n) Linear time
+  The .times method iterates over the collection. As the collection grows,
+  the number of operations grows at the same rate.
+
+3. O(n^2) Quadratic time
+  Nested loops result in O(n^2) provided the loop is iterating over the length
+  of the collections.
+
+4. O(2^n) Exponential time
+  In the worst case the function calls itself recursively twice in each iteration.
+  It is my understanding that because this method will create a tree of height n,
+  unlike a binary tree which would create a tree of heigth n/2, the two recursive calls
+  have to happen for all values of n.
+
+5. O(n) Linear time
+  Essentially just the While loop counts towards Big O, most of the operations
+  are just constant time operations. The While loop iterates over the length n - 1.
+
+6. O(n^2) Quadratic time
+  In the worst case scenario if the pivot is the smallest or largest element then
+  it will return one sublist with the size of n - 1. If this happens repeatedly
+  then each call will processing one list with a size of n - 1, (example 10, 9, 8, etc.)
+  The function with an original input of n, in the worst case would result in n * n - 1
+  calls. 1 being a constant it is dropped, leaving n^2.
+
+  
